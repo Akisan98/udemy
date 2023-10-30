@@ -1,0 +1,10 @@
+.center {
+  height: 20rem;
+  background-color: red;
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
