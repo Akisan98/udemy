@@ -1,0 +1,4 @@
+<p>String Interpolation {{ stringInterpolation }}</p>
+<input (input)="changeStringInterpolation($event)">
+<button [disabled]="btnDisabled">{{btnDisabled ? "Disabled Button" : "Enabled Button"}}</button>
+<input [(ngModel)]="stringInterpolation">
